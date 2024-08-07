@@ -2,20 +2,35 @@ body {
     background: lightcoral;
 }
 
-.title, .index-list {
-    color: white;
-    font-size: 40px;
-}
-
-a {
+a, p, ul, ol {
     color: darkred;
-    font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
-.title {
+a {
+    font-size: 30px;
+}
+
+p, .ulist, .olist {
+    font-size: 20px;
+}
+
+.title, .index-list, .description, .ingredients, .steps{
+    color: white;
     font-family: 'Lucida Sans', 'Segoe UI', Tahoma, sans-serif;
+}
+
+.title, .index-list {
+    font-size: 40px;
+}
+
+.title {
     text-align: center;
+}
+
+.dish {
+    height: auto;
+    width: 400px;
 }
 
 
