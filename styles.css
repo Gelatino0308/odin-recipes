@@ -1,7 +1,7 @@
 body {
     background: lightcoral;
     box-sizing: border-box;
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@ body.home-page {
 }
 
 p, .ulist, .olist {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .index-title, .recipe-title, .description, .ingredients, .steps {
@@ -31,7 +31,7 @@ p, .ulist, .olist {
     font-size: 40px;
 }
 
-.index-title{
+.index-title {
     text-align: center;
     padding: 30px;
     margin: 0;
@@ -51,6 +51,7 @@ p, .ulist, .olist {
 .dish {
     height: auto;
     width: 400px;
+    margin: 0;
 }
 
 .link {
@@ -73,7 +74,24 @@ p, .ulist, .olist {
 .option p {
     display: block;
     color: pink;
+    font-size: 20px;
 }
+
+.recipe-title, .ingredients, .steps {
+    padding: 10px;
+}
+
+.desc-para {
+    display: inline-block;
+    width: 350px;
+    height: 0;
+    margin: 30px;
+}
+
+.description {
+    margin: 0;
+}
+
 
 
 
