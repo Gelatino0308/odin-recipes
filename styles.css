@@ -1,9 +1,12 @@
 body {
     background: lightcoral;
+    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
 }
 
 a, p, ul, ol {
-    color: darkred;
+    color: rgb(145, 0, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
 }
 
@@ -11,26 +14,65 @@ a {
     font-size: 30px;
 }
 
+body.home-page {
+    width: auto;
+}
+
 p, .ulist, .olist {
     font-size: 20px;
 }
 
-.title, .index-list, .description, .ingredients, .steps{
+.index-title, .recipe-title, .description, .ingredients, .steps {
     color: white;
     font-family: 'Lucida Sans', 'Segoe UI', Tahoma, sans-serif;
 }
 
-.title, .index-list {
+.index-title, .recipe-title {
     font-size: 40px;
 }
 
-.title {
+.index-title{
     text-align: center;
+    padding: 30px;
+    margin: 0;
+    background-color: darkred;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.index-dish {
+    height: auto;
+    width: 300px;
+    border: 2px solid white;
 }
 
 .dish {
     height: auto;
     width: 400px;
+}
+
+.link {
+    display: block;
+    margin: 0 auto;
+    border: 2px groove pink;
+    background-color: lightcoral;
+}
+
+.option {
+    display: inline-block;
+    padding: 40px;
+    border: 10px outset white;
+    margin: 40px 52px;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(145, 0, 0);
+}
+
+.option p {
+    display: block;
+    color: pink;
 }
 
 
