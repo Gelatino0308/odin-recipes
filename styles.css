@@ -2,7 +2,7 @@ body {
     background: lightcoral;
     box-sizing: border-box;
     width: 850px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 a, p, ul, ol {
@@ -16,6 +16,7 @@ a {
 
 body.home-page {
     width: auto;
+    margin: 0 auto;
 }
 
 p, .ulist, .olist {
@@ -92,7 +93,19 @@ p, .ulist, .olist {
     margin: 0;
 }
 
+.back-btn {
+    display: block;
+    background-color: darkred;
+    padding: 5px;
+    border: 1px outset white;
+    margin: 50px auto 0;
+}
 
+.back-btn a {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
 
 
 
